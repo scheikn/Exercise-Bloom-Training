@@ -1,15 +1,12 @@
 public class HomeWork {
     public static void main (String[] args) {
-        int number = -2;
+        int number = 3;
 
-        if (number > 0) {
-            System.out.println("positive");
+        if (number % 2 == 0) {
+            System.out.println("gerade");
          }
-        else if (number < 0) {
-            System.out.println("negative");
+        else{
+          System.out.println("ungerade");  
         }
-        else if (number == 0) {
-            System.out.println("Null");
         }
     }
-}
