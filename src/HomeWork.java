@@ -1,8 +1,11 @@
 public class HomeWork { 
     public static void main (String[] args) {
-        int number = 85;
+        int number = 110;
 
-        if (number >= 90) {
+        if (number > 100) {
+            System.out.println("invalid"); 
+        }
+        else if (number >= 90) {
             System.out.println("A");
         }
         else if (number >= 89) {
@@ -17,5 +20,6 @@ public class HomeWork {
         else if (number < 60) {
             System.out.println("F"); 
         }
-    }   
+        
+    }  
 }
