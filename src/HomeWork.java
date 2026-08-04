@@ -1,27 +1,18 @@
 public class HomeWork { 
     public static void main (String[] args) {
-        int number = -3;
+        int first = 8;
+        int second = 8; 
 
-        if (number >= 65) {
-            System.out.println("Senior");  
+        if (first > second){
+            System.out.println ("first greater");
         }
-        else if (number >= 18) {
-            System.out.println("Erwachsener"); 
+        else if (first < second){
+            System.out.println ("second greater");
         }
-        else if (number >= 13) {
-            System.out.println("Jugendlicher");
+        else {
+            System.out.println ("same");
         }
+    }
+}    
 
-        else { 
-
-        if (number < 0) {
-            System.out.println("invalid"); 
-        }
-            else  {
-            System.out.println("Kind");
-            }
-        }
-   }      
-
- }  
-
+ 
