@@ -1,25 +1,20 @@
 public class HomeWork { 
     public static void main (String[] args) {
-        int number = 110;
+        int number = -10;
 
-        if (number > 100) {
-            System.out.println("invalid"); 
+        if (number >= 30) {
+            System.out.println("Heiß");  
         }
-        else if (number >= 90) {
-            System.out.println("A");
+        else if (number >= 20) {
+            System.out.println("Angenehm"); 
         }
-        else if (number >= 89) {
-            System.out.println("B");  
+        else if (number >= 0) {
+            System.out.println("Kalt");
         }
-        else if (number >= 79) {
-            System.out.println("C");  
-        }
-        else if (number >= 69) {
-            System.out.println("D");  
-        }
-        else if (number < 60) {
-            System.out.println("F"); 
-        }
+        if (number < 0) {
+            System.out.println("Gefrierpunkt"); 
+         }
+    }
         
-    }  
-}
+ }  
+
