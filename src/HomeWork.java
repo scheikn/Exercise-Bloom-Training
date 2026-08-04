@@ -1,18 +1,17 @@
 public class HomeWork { 
     public static void main (String[] args) {
-        int first = 8;
-        int second = 8; 
+        String username = "admin";
+        String password = "java123";
 
-        if (first > second){
-            System.out.println ("first greater");
-        }
-        else if (first < second){
-            System.out.println ("second greater");
-        }
-        else {
-            System.out.println ("same");
-        }
+    if (username.equals("admin")) {
+        if(password.equals("java123"))
+        System.out.println("login successfull");
     }
-}    
+    else {
+     System.out.println("invalid login");
+    }
+        
+        }
+    }   
 
  
