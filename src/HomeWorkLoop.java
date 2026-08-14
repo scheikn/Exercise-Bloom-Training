@@ -3,8 +3,8 @@ public class HomeWorkLoop {
 
         int number = 7;
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(number + " " +  "x" + " " + i  + " " +"=" + number * i);
+        for (int i = 2; i <= 1024; i = i*2) {
+            System.out.println(i);
         }
     }
 }
