@@ -1,10 +1,12 @@
 public class HomeWorkLoop { 
     public static void main (String[] args) {
-     
+     int i=1;
+     int summe= 0;
 
-        for (int i =20 ; i>=1; i-- ) 
-             if (i % 2 != 0) {
-            System.out.println(i);
+        while (i <= 10) {
+            summe = summe +i;
+                i++;
         }
+        System.out.println(summe);
     }
 }
