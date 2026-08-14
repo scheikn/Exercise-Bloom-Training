@@ -1,12 +1,11 @@
 public class HomeWorkLoop { 
     public static void main (String[] args) {
-     int i=1;
-     int summe= 0;
-
-        while (i <= 10) {
-            summe = summe +i;
-                i++;
+     
+    for (int i =1; i<=30; i++) {
+        if (i %2 ==0)
+        System.out.println(i + " " + "gerade");  
+        if (i %2 !=0)
+         System.out.println(i + " " + "ungerade");  
         }
-        System.out.println(summe);
     }
 }
