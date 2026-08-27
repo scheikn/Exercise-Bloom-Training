@@ -17,4 +17,8 @@ public class Product {
 
         System.out.println(price*quantity);
         }
+
+    void moreProducts() {
+
+    }
     }
