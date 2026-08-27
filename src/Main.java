@@ -1,7 +1,7 @@
 public class Main { 
     public static void main (String[] args) {
 
-        MultiplicationTable numberA = new MultiplicationTable (9);     
+        CountdownClass numberA = new CountdownClass (10);     
         numberA.introduce (); 
   
        }
