@@ -7,17 +7,17 @@ public class NumberCollection {
 
     void introduce() {
 
-    System.out.println("Number is " + sum);
+      System.out.println("Number is " + sum);
 
-    int i = 1; 
-    while (i<=20) {
-        int number = sum+=i;
+        int i = 1; 
+        while (i<=20) {
+            int number = sum+=i;
 
-    if (number %2 ==0) { 
-        System.out.println(number + " ist gerade");
-    }
-    i++;
-    }
-    System.out.println(sum);
+        if (number %2 ==0) { 
+            System.out.println(number + " ist gerade");
+        }
+        i++;
+        }
+        System.out.println(sum);
     }
 }
