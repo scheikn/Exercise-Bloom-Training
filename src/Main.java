@@ -1,17 +1,11 @@
 public class Main { 
     public static void main (String[] args) {
 
-        StudentGrades studentA = new StudentGrades ("Tom", 10);
+        PersonClass personA = new PersonClass ("Tom", 16);     
+        personA.introduce (); 
+
+        StudentGrades studentA = new StudentGrades ("Tom", 85);
         studentA.introduce (); 
     
-        StudentGrades studentB = new StudentGrades ("Lisa", 63);
-        studentB.introduce (); 
-
-        StudentGrades studentC = new StudentGrades ("Tim", 99);
-        studentC.introduce (); 
-
-        StudentGrades studentD = new StudentGrades ("Anna", 35);
-        studentD.introduce (); 
-
        }
 }
