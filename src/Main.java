@@ -1,8 +1,8 @@
 public class Main { 
     public static void main (String[] args) {
 
-        CountdownClass numberA = new CountdownClass (10);     
-        numberA.introduce (); 
+        Product productA = new Product ("pen",3.5,6);     
+        productA.introduce (); 
   
        }
 }
