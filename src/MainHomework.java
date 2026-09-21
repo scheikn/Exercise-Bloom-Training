@@ -1,8 +1,8 @@
 public class MainHomework { 
     public static void main (String[] args) {
 
-        BankAccount BankAccountA = new BankAccount ("Tom", 300);     
-        BankAccountA.introduce (); 
+        CarExercise CarA = new CarExercise ("Porsche", 150);     
+        CarA.speedClasses (); 
 
         }
 }
