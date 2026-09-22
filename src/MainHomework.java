@@ -1,8 +1,11 @@
 public class MainHomework { 
     public static void main (String[] args) {
 
-        CarExercise CarA = new CarExercise ("Porsche", 150);     
-        CarA.speedClasses (); 
+        Cinema cinema = new Cinema (150);     
+        cinema.sellSeat (); 
 
         }
 }
+
+  
+  
