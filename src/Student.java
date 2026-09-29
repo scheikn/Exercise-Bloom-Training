@@ -7,8 +7,7 @@ public class Student {
       this.score = score;
    }
    void printInfo () {
-      System.out.println(name);
-      System.out.println(score);
+      System.out.println (name + " :" + " grade is :" + score);
    }
 
    

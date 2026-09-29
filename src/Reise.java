@@ -7,9 +7,7 @@ public class Reise {
       this.dauer = dauer;
    }
    void printInfo () {
-      System.out.println(ziel);
-      System.out.println(dauer);
-      System.out.println("Reise nach "+ ziel + " :" + dauer);
+            System.out.println("Reise nach "+ ziel + " :" + dauer);
    }
 
    
