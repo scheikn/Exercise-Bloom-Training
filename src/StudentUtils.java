@@ -1,6 +1,6 @@
 public class StudentUtils{
 
-    static void printStudents (Student[] students) {
+    static void printStudents (Reise[] reise) {
         for (Student tempstudent : students) {
            tempstudent.printInfo ();
         }
