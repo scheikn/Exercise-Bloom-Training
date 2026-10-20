@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class Iterators { 
     public static void main (String[] args) {
@@ -14,7 +15,12 @@ public class Iterators {
             System.out.println(it.next());
         }    
 
-       it.remove (); 
-    
+        ListIterator <String> Listit = names.listIterator (names.size()-1); 
+        Listit.previous(); 
+        
+        Listit.remove ();
+        System.out.println(names);
+        } 
+        
     }
- }
+ 
